@@ -1,0 +1,8 @@
+1. swkitch caps lock with esc:
+You can also do this from the command line, without installing dconf-editor: dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
+
+2. install beautifulsoup4
+first using command:" sudo su "  to get to the system level, then using command:" apt-get install easy_install" to install easy_install for python 
+third using commmand: " easy_install beautifulsoup4" to install beautifulsoup4 module
+
+3.
