@@ -5,4 +5,18 @@ You can also do this from the command line, without installing dconf-editor: dco
 first using command:" sudo su "  to get to the system level, then using command:" apt-get install easy_install" to install easy_install for python 
 third using commmand: " easy_install beautifulsoup4" to install beautifulsoup4 module
 
-3.
+3. don't try to use sogou pinyin in ubuntu, it sucks
+
+4. Cut and paste:
+
+    Position the cursor where you want to begin cutting.
+    Press v to select characters (or uppercase V to select whole lines).
+    Move the cursor to the end of what you want to cut.
+    Press d to cut (or y to copy).
+    Move to where you would like to paste.
+    Press P to paste before the cursor, or p to paste after.
+    
+5. jump to line:
+line numbers + gg
+
+
