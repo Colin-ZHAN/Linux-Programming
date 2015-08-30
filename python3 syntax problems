@@ -1,0 +1,31 @@
+1. operation overloading
+use two under store: def __init__(), not _init_()
+
+2. class usage
+object.class includes methods, methods includes behaviours;
+instance is the name space storing values;
+we should first link an instance to an object.class, or else we could not use the methods inside.
+class ThirdClass:
+  def setdata(self, value):
+    self.data = value
+  def display(self):
+    print self.data
+  def __add___(self, other):
+    self.data = self.data + other
+    
+a = ThirdClass()
+a.setdata("abc")
+a.display()
+
+b = a + 'xyz'  # here b is equal to a str
+b.display()  # !!problem here is b is not defined as an instance of ThirdClass, cannot use method display()
+## modified:
+## b = ThirdClass()  #also define b as one instance of ThirdClass, then it could use display() method
+## b.setdata(a+'xyz')
+## b.display()
+
+
+
+
+    
+
