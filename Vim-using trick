@@ -19,4 +19,7 @@ third using commmand: " easy_install beautifulsoup4" to install beautifulsoup4 m
 5. jump to line:
 line numbers + gg
 
+6. git installation
+sudo apt-get install git
+
 
